@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------logo and banner------ */
+nav img {
+    width: 200px;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/cslab.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fafaff;
+    font-size: 25px;
+}
+
+.nav-links ul li :hover {
+    color: #f44336;
+    text-decoration: underline;
+}
+
+.csedept h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#vission1 {
+    background-color: rgb(99, 98, 98);
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+#deptvis {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 90px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+#vis img {
+    width: 200px;
+    margin-top: -110px;
+    margin-left: -40px;
+}
+
+#v {
+    color: #fafaff;
+    margin-top: -75px;
+    padding-left: 30px;
+}
+
+#mission1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#mis img {
+    float: right;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    margin-top: -110px;
+    margin-right: 450px;
+}
+
+#deptmis {
+    font-size: 20px;
+    color: #fafaff;
+    margin-left: 950px;
+    margin-top: -150px;
+}
+
+#m {
+    float: right;
+    color: #fafaff;
+    margin-left: 900px;
+    margin-top: 19px;
+}
+
+.notes {
+    margin-top: 10px;
+    background-color: #f44336;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(107, 101, 233);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
