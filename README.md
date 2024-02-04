@@ -1,2 +1,2 @@
 # Kls_Notes_Website
-I developed Kls Notes Website Contain the Notes and Previous Year Question Papers and College&amp;Department Vision and Mission, College&amp;VTU Website Link Using HTML,CSS and JavaScript.
+I developed the Kls Notes Website Containing the Notes and Previous Year's Question Papers and the College&amp; Department Vision and Mission, College&amp; VTU Website Link Using HTML, CSS and JavaScript.
